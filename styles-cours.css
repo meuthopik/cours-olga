@@ -1,0 +1,24 @@
+#specif-1 {
+  border-spacing: 5px;
+}
+
+
+
+table#specif-1 td {
+  width: 105px;
+  height: 40px;
+  margin: 40px;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+table#specif-1 td:nth-child(1) {background-color: rgb(255, 134, 90);}
+table#specif-1 td:nth-child(2) {background-color: rgb(255, 124, 146);}
+table#specif-1 td:nth-child(3) {background-color: rgb(2, 196, 230)}
+table#specif-1 td:nth-child(4) {background-color: rgb(167, 225, 52)}
+
+table#specif-1 tr:first-of-type td {
+  height: 90px;
+  font-size: 2em;
+}
